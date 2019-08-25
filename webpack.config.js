@@ -6,8 +6,10 @@ module.exports = (env, argv) => {
   return {
     entry: './src/index.js',
     output: {
-      filename: 'markdown-it-color.min.js',
+      filename: 'markdown-it-color.js',
       path: path.resolve(__dirname, 'dist'),
+      library: 'markdown-it-color',
+      libraryTarget: 'umd',
     },
     mode: isDev ? 'development' : 'production',
     module: {
