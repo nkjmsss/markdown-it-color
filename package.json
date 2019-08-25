@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Inline color plugin for markdown-it",
   "main": "dist/markdown-it-color.js",
   "scripts": {
