@@ -2,7 +2,7 @@
   "name": "markdown-it-color",
   "version": "1.0.1",
   "description": "Inline color plugin for markdown-it",
-  "main": "./src/index.js",
+  "main": "dist/markdown-it-color.min.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
