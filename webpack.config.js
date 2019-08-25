@@ -10,8 +10,10 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'dist'),
       library: 'markdown-it-color',
       libraryTarget: 'umd',
+      globalObject: 'this',
     },
     mode: isDev ? 'development' : 'production',
+    devtool: 'source-map',
     module: {
       rules: [
         {
