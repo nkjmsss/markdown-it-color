@@ -80,10 +80,7 @@ export default function(md, options) {
         attrs.push(['style', `color: ${colorName};`])
       }
 
-      token.info = {
-        color: colorName,
-        inline: inline,
-      }
+      token.info = colorName
 
       state.md.inline.tokenize(state)
 
