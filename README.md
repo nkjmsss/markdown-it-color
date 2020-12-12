@@ -37,4 +37,3 @@ var md = require('markdown-it')()
 
 md.render('{red}(sample)') // => '<span class="md-colorify md-colorify--red" style="color: red;">sample</span>'
 ```
-
